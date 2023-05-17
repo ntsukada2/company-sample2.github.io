@@ -1,0 +1,207 @@
+html {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+  }
+
+/*Header*/
+
+
+.levelone {
+    border-bottom: solid 1px #D5CEC5;
+}
+
+
+.left {
+    display: flex;
+    align-items: center;
+    padding: 0.25rem .75rem;
+}
+
+.left p{
+    padding: 0.5rem;
+    color: #69482D;
+}
+
+.logo{
+    height:3rem;
+}
+
+.icon {
+    display: flex;
+    height: 3rem;
+    margin-left: auto;
+}
+
+.leveltwo {
+    border-bottom: solid 1px #D5CEC5;
+}
+
+header li a{
+    list-style: none;
+    text-decoration: none;
+    color: #69482D;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+@media only screen and (max-width: 480px){
+    header p{
+        display:none;
+    }
+}
+
+/*main banner*/
+
+.about{
+    background-image: url("./images/bakery-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40rem;
+    border-bottom: solid 1px #D5CEC5;
+    border-top: solid 1px #D5CEC5;
+
+}
+
+.banner-text {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.75rem;
+    letter-spacing: 2rem;
+    color: white;
+    background-color: #69482D;
+    text-align: center;
+    transform: translate(0, 16rem)
+}
+
+ .about .mission {
+    display:block;
+    float:right;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.15rem;
+    font-size: .9rem;
+    width: 50%;
+    background-color: #554A41;
+    transform: translate(0, 20rem);
+    padding: 0.125rem .5rem;
+    color:#D5CEC5;
+    
+}
+
+@media only screen and (max-width: 1080px) {
+    .about .mission {
+        display:none;
+    }
+}
+
+.product-intro{
+    text-align: center;
+    color: #69482D;
+}
+
+.product-intro h2{
+    text-align: center;
+    color: #69482D;
+    font-size: 2rem;
+
+}
+.product-intro h4{
+    text-align: center;
+    color: #69482D;
+    font-size: 1.25rem;
+
+
+}
+
+.product-card img{
+    overflow: hidden;
+    max-height: 30rem;
+    max-width: 80%;
+    border:solid 2px #D5CEC5;
+}
+
+.product-section{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.product-card{
+    text-align: center;
+    background-color: #69482D;
+    padding: 2.5rem 2.5rem 1rem 2.5rem;
+    margin: 1rem;
+    color:#D5CEC5;
+    font-size: 1.25rem;
+    letter-spacing: .25rem;
+
+}
+
+.team{
+    background-color: #D5CEC5;
+    padding: 0.5rem;
+    border-top:solid 1px #554A41;
+    border-bottom:solid 1px #554A41;
+    color:#554A41;
+    text-align: center ;
+}
+
+.team h2{
+    font-size: 2rem;
+}
+
+.team-section{
+    overflow: hidden;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+    
+}
+
+
+.team-card{
+    text-align: center;
+    padding: 1rem;
+}
+.team-card img{
+    max-height: 30rem;
+    max-width: 20rem;
+    border:solid 1px #554A41;
+}
+
+.team-card h4{
+    background-color: white;
+    padding: 0.5rem;
+    box-shadow: 10px 10px #69482D;
+    line-height: 1.5rem;
+}
+
+.levelthree{
+    border-bottom:solid 1px #554A41;
+    border-top:solid 1px #554A41;
+    background-color: #69482D;
+}
+
+.levelthree li{
+    list-style: none;
+}
+
+.levelthree li a{
+    text-decoration: none;
+    color:white;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.levelfour{
+float:right;    
+font-size: 1rem;
+}
